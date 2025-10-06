@@ -143,14 +143,14 @@ MIT
 
 ## 📚 Documentación Disponible
 
-- **[QUICKSTART.md](QUICKSTART.md)** - Inicio rápido en 5 minutos
-- **[SETUP.md](SETUP.md)** - Guía de instalación detallada
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solución de problemas
-- **[SOLUTIONS.md](SOLUTIONS.md)** - Soluciones de ejemplo (instructores)
-- **[EXTENDING.md](EXTENDING.md)** - Cómo extender funcionalidades
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Arquitectura del sistema
-- **[CHECKLIST.md](CHECKLIST.md)** - Lista de verificación
-- **[INSTRUCCIONES.txt](INSTRUCCIONES.txt)** - Resumen ejecutivo
+- **[QUICKSTART.md](./guias-playground/QUICKSTART.md)** - Inicio rápido en 5 minutos
+- **[SETUP.md](./guias-playground/SETUP.md)** - Guía de instalación detallada
+- **[TROUBLESHOOTING.md](./guias-playground/TROUBLESHOOTING.md)** - Solución de problemas
+- **[SOLUTIONS.md](./guias-playground/SOLUTIONS.md)** - Soluciones de ejemplo (instructores)
+- **[EXTENDING.md](./guias-playground/EXTENDING.md)** - Cómo extender funcionalidades
+- **[ARCHITECTURE.md](./guias-playground/ARCHITECTURE.md)** - Arquitectura del sistema
+- **[CHECKLIST.md](./guias-playground/CHECKLIST.md)** - Lista de verificación
+- **[INSTRUCCIONES.txt](./guias-playground/INSTRUCCIONES.txt)** - Resumen ejecutivo
 
 ## 🎯 Retos Incluidos
 
@@ -210,8 +210,8 @@ npm run build          # Construir para producción
    - Backend: http://localhost:5000
 
 4. **Login como admin:**
-   - Usuario: `atag`
-   - Contraseña: `atag553`
+   - Usuario: `admin`
+   - Contraseña: `admin123`
 
 ## 🎨 Capturas de Pantalla
 
@@ -249,14 +249,14 @@ Además de las funcionalidades solicitadas:
 
 ## 🤝 Contribuir
 
-Para agregar nuevas funcionalidades, consulta [EXTENDING.md](EXTENDING.md).
+Para agregar nuevas funcionalidades, consulta [EXTENDING.md](./guias-playground/EXTENDING.md).
 
 ## 📞 Soporte
 
 Si encuentras problemas:
 
-1. Revisa [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-2. Verifica [CHECKLIST.md](CHECKLIST.md)
+1. Revisa [TROUBLESHOOTING.md](./guias-playground/TROUBLESHOOTING.md)
+2. Verifica [CHECKLIST.md](./guias-playground/CHECKLIST.md)
 3. Consulta la documentación relevante
 
 ---
