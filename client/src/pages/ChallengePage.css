@@ -1,0 +1,262 @@
+.challenge-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 20px;
+}
+
+.challenge-header {
+  max-width: 1600px;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.challenge-title-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.challenge-title-section h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.points-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #667eea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.challenge-description-panel,
+.challenge-editor-panel {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.panel-content {
+  padding: 24px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.description-text {
+  color: #333;
+  line-height: 1.8;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+.editor-container {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.output-panel {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid;
+}
+
+.output-panel.success {
+  background: #e8f5e9;
+  border-color: #38ef7d;
+}
+
+.output-panel.error {
+  background: #ffebee;
+  border-color: #f45c43;
+}
+
+.output-panel h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.output-panel p {
+  margin: 0;
+  color: #333;
+}
+
+.results-panel {
+  margin-top: 24px;
+  padding: 24px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.results-header h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.score-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.score-label {
+  font-weight: 600;
+  color: #666;
+}
+
+.score-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.test-summary {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.test-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.test-result-item {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  border-left: 4px solid;
+}
+
+.test-result-item.passed {
+  border-color: #38ef7d;
+}
+
+.test-result-item.failed {
+  border-color: #f45c43;
+}
+
+.test-result-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.test-number {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.test-description {
+  color: #666;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+.test-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.test-detail {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.test-detail strong {
+  min-width: 80px;
+  color: #666;
+}
+
+.test-detail code {
+  background: #f5f5f5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  color: #333;
+  flex: 1;
+}
+
+.test-detail.error code {
+  background: #ffebee;
+  color: #f45c43;
+}
+
+@media (max-width: 1200px) {
+  .challenge-container {
+    grid-template-columns: 1fr;
+  }
+
+  .challenge-description-panel {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .challenge-title-section h1 {
+    font-size: 20px;
+  }
+
+  .panel-header {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .editor-container {
+    margin: 10px;
+  }
+}
